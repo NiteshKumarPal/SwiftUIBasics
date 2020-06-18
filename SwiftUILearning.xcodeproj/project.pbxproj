@@ -22,6 +22,7 @@
 		96A93E30249A980A00E9B7C8 /* ServiceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A93E2F249A980A00E9B7C8 /* ServiceDetail.swift */; };
 		96A93E33249B8C0400E9B7C8 /* GridViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A93E32249B8C0400E9B7C8 /* GridViewSample.swift */; };
 		96A93E35249B8FB000E9B7C8 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A93E34249B8FB000E9B7C8 /* Property.swift */; };
+		96A93E37249BA88400E9B7C8 /* GridViewWithState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A93E36249BA88400E9B7C8 /* GridViewWithState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		96A93E2F249A980A00E9B7C8 /* ServiceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetail.swift; sourceTree = "<group>"; };
 		96A93E32249B8C0400E9B7C8 /* GridViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewSample.swift; sourceTree = "<group>"; };
 		96A93E34249B8FB000E9B7C8 /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		96A93E36249BA88400E9B7C8 /* GridViewWithState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewWithState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +118,7 @@
 				96A93E27249A7ABB00E9B7C8 /* CommonFiles */,
 				96A93E26249A7AA000E9B7C8 /* StacksAndText */,
 				96A93E28249A7AD900E9B7C8 /* ListAndNavigation */,
-				96A93E31249B8BD000E9B7C8 /* GridView */,
+				96A93E31249B8BD000E9B7C8 /* GridViewAndState */,
 				96A93DFA249A783500E9B7C8 /* Assets.xcassets */,
 				96A93DFF249A783500E9B7C8 /* LaunchScreen.storyboard */,
 				96A93E02249A783500E9B7C8 /* Info.plist */,
@@ -180,13 +182,14 @@
 			path = ListAndNavigation;
 			sourceTree = "<group>";
 		};
-		96A93E31249B8BD000E9B7C8 /* GridView */ = {
+		96A93E31249B8BD000E9B7C8 /* GridViewAndState */ = {
 			isa = PBXGroup;
 			children = (
 				96A93E32249B8C0400E9B7C8 /* GridViewSample.swift */,
+				96A93E36249BA88400E9B7C8 /* GridViewWithState.swift */,
 				96A93E34249B8FB000E9B7C8 /* Property.swift */,
 			);
-			path = GridView;
+			path = GridViewAndState;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +325,7 @@
 			files = (
 				96A93E35249B8FB000E9B7C8 /* Property.swift in Sources */,
 				96A93E25249A789200E9B7C8 /* Stacks.swift in Sources */,
+				96A93E37249BA88400E9B7C8 /* GridViewWithState.swift in Sources */,
 				96A93E2E249A8CC200E9B7C8 /* SocietyServicesNavigationDemo.swift in Sources */,
 				96A93E30249A980A00E9B7C8 /* ServiceDetail.swift in Sources */,
 				96A93E33249B8C0400E9B7C8 /* GridViewSample.swift in Sources */,

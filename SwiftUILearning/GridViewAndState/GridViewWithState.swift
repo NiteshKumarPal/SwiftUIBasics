@@ -12,7 +12,7 @@ struct GridViewWithState: View {
     
     var properties: [Property] = Property.getAllProperties
     
-    @State private var columnCount = 2
+    @State private var columnCount = 2 //Since State property is dedicated to only its owner View, it's good practice to make it private
     let maxColumnSize = 4
     
     var body: some View {

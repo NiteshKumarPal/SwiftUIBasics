@@ -25,6 +25,9 @@
 		96A93E37249BA88400E9B7C8 /* GridViewWithState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A93E36249BA88400E9B7C8 /* GridViewWithState.swift */; };
 		96A93E3A249BC7F600E9B7C8 /* StateBindingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A93E39249BC7F600E9B7C8 /* StateBindingExample.swift */; };
 		96A93E3C249BCD6700E9B7C8 /* StatePassToOtherViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A93E3B249BCD6700E9B7C8 /* StatePassToOtherViewExample.swift */; };
+		96A93E3F249CCC0700E9B7C8 /* LiveTimerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A93E3E249CCC0700E9B7C8 /* LiveTimerExample.swift */; };
+		96A93E41249CCC3200E9B7C8 /* DateTimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A93E40249CCC3200E9B7C8 /* DateTimeModel.swift */; };
+		96A93E45249CF25500E9B7C8 /* ObservaleObjectTwoWayExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A93E44249CF25500E9B7C8 /* ObservaleObjectTwoWayExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 		96A93E36249BA88400E9B7C8 /* GridViewWithState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewWithState.swift; sourceTree = "<group>"; };
 		96A93E39249BC7F600E9B7C8 /* StateBindingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBindingExample.swift; sourceTree = "<group>"; };
 		96A93E3B249BCD6700E9B7C8 /* StatePassToOtherViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePassToOtherViewExample.swift; sourceTree = "<group>"; };
+		96A93E3E249CCC0700E9B7C8 /* LiveTimerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTimerExample.swift; sourceTree = "<group>"; };
+		96A93E40249CCC3200E9B7C8 /* DateTimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeModel.swift; sourceTree = "<group>"; };
+		96A93E44249CF25500E9B7C8 /* ObservaleObjectTwoWayExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservaleObjectTwoWayExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +130,7 @@
 				96A93E28249A7AD900E9B7C8 /* ListAndNavigation */,
 				96A93E31249B8BD000E9B7C8 /* GridViewAndState */,
 				96A93E38249BC7D500E9B7C8 /* StateBiDirectionBindingWithView */,
+				96A93E3D249CCBD200E9B7C8 /* ObservableObject */,
 				96A93DFA249A783500E9B7C8 /* Assets.xcassets */,
 				96A93DFF249A783500E9B7C8 /* LaunchScreen.storyboard */,
 				96A93E02249A783500E9B7C8 /* Info.plist */,
@@ -204,6 +211,32 @@
 				96A93E3B249BCD6700E9B7C8 /* StatePassToOtherViewExample.swift */,
 			);
 			path = StateBiDirectionBindingWithView;
+			sourceTree = "<group>";
+		};
+		96A93E3D249CCBD200E9B7C8 /* ObservableObject */ = {
+			isa = PBXGroup;
+			children = (
+				96A93E42249CD04B00E9B7C8 /* Example1 */,
+				96A93E43249CD05B00E9B7C8 /* Example2 */,
+			);
+			path = ObservableObject;
+			sourceTree = "<group>";
+		};
+		96A93E42249CD04B00E9B7C8 /* Example1 */ = {
+			isa = PBXGroup;
+			children = (
+				96A93E40249CCC3200E9B7C8 /* DateTimeModel.swift */,
+				96A93E3E249CCC0700E9B7C8 /* LiveTimerExample.swift */,
+			);
+			path = Example1;
+			sourceTree = "<group>";
+		};
+		96A93E43249CD05B00E9B7C8 /* Example2 */ = {
+			isa = PBXGroup;
+			children = (
+				96A93E44249CF25500E9B7C8 /* ObservaleObjectTwoWayExample.swift */,
+			);
+			path = Example2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,17 +370,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A93E3F249CCC0700E9B7C8 /* LiveTimerExample.swift in Sources */,
 				96A93E35249B8FB000E9B7C8 /* Property.swift in Sources */,
 				96A93E25249A789200E9B7C8 /* Stacks.swift in Sources */,
 				96A93E37249BA88400E9B7C8 /* GridViewWithState.swift in Sources */,
 				96A93E2E249A8CC200E9B7C8 /* SocietyServicesNavigationDemo.swift in Sources */,
 				96A93E30249A980A00E9B7C8 /* ServiceDetail.swift in Sources */,
+				96A93E45249CF25500E9B7C8 /* ObservaleObjectTwoWayExample.swift in Sources */,
 				96A93E33249B8C0400E9B7C8 /* GridViewSample.swift in Sources */,
 				96A93DF5249A783300E9B7C8 /* AppDelegate.swift in Sources */,
 				96A93DF7249A783300E9B7C8 /* SceneDelegate.swift in Sources */,
 				96A93E3A249BC7F600E9B7C8 /* StateBindingExample.swift in Sources */,
 				96A93DF9249A783300E9B7C8 /* ContentView.swift in Sources */,
 				96A93E2C249A7E4600E9B7C8 /* SocietyServiceModel.swift in Sources */,
+				96A93E41249CCC3200E9B7C8 /* DateTimeModel.swift in Sources */,
 				96A93E3C249BCD6700E9B7C8 /* StatePassToOtherViewExample.swift in Sources */,
 				96A93E2A249A7BE400E9B7C8 /* SocietyServicesListDemo.swift in Sources */,
 			);

@@ -28,6 +28,8 @@
 		96A93E3F249CCC0700E9B7C8 /* LiveTimerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A93E3E249CCC0700E9B7C8 /* LiveTimerExample.swift */; };
 		96A93E41249CCC3200E9B7C8 /* DateTimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A93E40249CCC3200E9B7C8 /* DateTimeModel.swift */; };
 		96A93E45249CF25500E9B7C8 /* ObservaleObjectTwoWayExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A93E44249CF25500E9B7C8 /* ObservaleObjectTwoWayExample.swift */; };
+		96A93E48249D1BAB00E9B7C8 /* PublishPropertyBindingToOtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A93E47249D1BAA00E9B7C8 /* PublishPropertyBindingToOtherView.swift */; };
+		96A93E4B249D23E100E9B7C8 /* EnvironmentObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A93E4A249D23E100E9B7C8 /* EnvironmentObjectExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,8 @@
 		96A93E3E249CCC0700E9B7C8 /* LiveTimerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTimerExample.swift; sourceTree = "<group>"; };
 		96A93E40249CCC3200E9B7C8 /* DateTimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeModel.swift; sourceTree = "<group>"; };
 		96A93E44249CF25500E9B7C8 /* ObservaleObjectTwoWayExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservaleObjectTwoWayExample.swift; sourceTree = "<group>"; };
+		96A93E47249D1BAA00E9B7C8 /* PublishPropertyBindingToOtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPropertyBindingToOtherView.swift; sourceTree = "<group>"; };
+		96A93E4A249D23E100E9B7C8 /* EnvironmentObjectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,7 @@
 				96A93E31249B8BD000E9B7C8 /* GridViewAndState */,
 				96A93E38249BC7D500E9B7C8 /* StateBiDirectionBindingWithView */,
 				96A93E3D249CCBD200E9B7C8 /* ObservableObject */,
+				96A93E49249D23B900E9B7C8 /* EnvironmentObject */,
 				96A93DFA249A783500E9B7C8 /* Assets.xcassets */,
 				96A93DFF249A783500E9B7C8 /* LaunchScreen.storyboard */,
 				96A93E02249A783500E9B7C8 /* Info.plist */,
@@ -218,6 +223,7 @@
 			children = (
 				96A93E42249CD04B00E9B7C8 /* Example1 */,
 				96A93E43249CD05B00E9B7C8 /* Example2 */,
+				96A93E46249D1AFE00E9B7C8 /* Example3 */,
 			);
 			path = ObservableObject;
 			sourceTree = "<group>";
@@ -237,6 +243,22 @@
 				96A93E44249CF25500E9B7C8 /* ObservaleObjectTwoWayExample.swift */,
 			);
 			path = Example2;
+			sourceTree = "<group>";
+		};
+		96A93E46249D1AFE00E9B7C8 /* Example3 */ = {
+			isa = PBXGroup;
+			children = (
+				96A93E47249D1BAA00E9B7C8 /* PublishPropertyBindingToOtherView.swift */,
+			);
+			path = Example3;
+			sourceTree = "<group>";
+		};
+		96A93E49249D23B900E9B7C8 /* EnvironmentObject */ = {
+			isa = PBXGroup;
+			children = (
+				96A93E4A249D23E100E9B7C8 /* EnvironmentObjectExample.swift */,
+			);
+			path = EnvironmentObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,10 +393,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				96A93E3F249CCC0700E9B7C8 /* LiveTimerExample.swift in Sources */,
+				96A93E4B249D23E100E9B7C8 /* EnvironmentObjectExample.swift in Sources */,
 				96A93E35249B8FB000E9B7C8 /* Property.swift in Sources */,
 				96A93E25249A789200E9B7C8 /* Stacks.swift in Sources */,
 				96A93E37249BA88400E9B7C8 /* GridViewWithState.swift in Sources */,
 				96A93E2E249A8CC200E9B7C8 /* SocietyServicesNavigationDemo.swift in Sources */,
+				96A93E48249D1BAB00E9B7C8 /* PublishPropertyBindingToOtherView.swift in Sources */,
 				96A93E30249A980A00E9B7C8 /* ServiceDetail.swift in Sources */,
 				96A93E45249CF25500E9B7C8 /* ObservaleObjectTwoWayExample.swift in Sources */,
 				96A93E33249B8C0400E9B7C8 /* GridViewSample.swift in Sources */,

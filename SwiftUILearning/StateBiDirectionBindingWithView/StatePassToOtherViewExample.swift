@@ -27,6 +27,7 @@ struct ShowMessage: View {
     
     // 1. Dont make this property as private, otherwise it cannot be bound with its original property
     // 2. It will require to add type annotation eg. String, without any initiazation
+    // 3. Best practice to name the property exact the same name which is being bound to it to avoid any confusions.
     @Binding var message: String
     
     var body: some View {

@@ -3,7 +3,6 @@
 //  SwiftUILearning
 //
 //  Created by Nitesh Kumar Pal on 17/06/20.
-//  Copyright © 2020 Initiator. All rights reserved.
 //
 
 import SwiftUI
@@ -27,7 +26,7 @@ struct SocietyServicesListDemo: View {
     // 2nd Trial
     func getSocietyServices() -> some View {
         return List(services, id: \.serviceName) {service in
-            HStack {
+            HStack { // <- There is implicit HStack inside List, so no need to add extra HStack, check getSocietyServicesImproved()
                     Image(service.image)
                         .resizable()
                         .frame(width: 100, height: 100)
@@ -40,9 +39,25 @@ struct SocietyServicesListDemo: View {
         }
     }
     
+    // 2nd Trial
+    func getSocietyServicesImproved() -> some View {
+        return List(services, id: \.serviceName) {service in
+            
+            Image(service.image)
+                .resizable()
+                .frame(width: 100, height: 100)
+                .cornerRadius(15)
+            
+            VStack(alignment: .leading) {
+                Text(service.serviceName)
+            }
+        }
+    }
+    
     // 3rd Trial
     func getSocietyServicesWithCell() -> some View {
         return List(services, id: \.serviceName) {service in
+            //Let's extract
             ServiceCell(service: service)
         }
     }

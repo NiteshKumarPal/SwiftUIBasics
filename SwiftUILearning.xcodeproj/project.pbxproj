@@ -181,9 +181,9 @@
 		96A93E27249A7ABB00E9B7C8 /* CommonFiles */ = {
 			isa = PBXGroup;
 			children = (
-				96A93DF8249A783300E9B7C8 /* ContentView.swift */,
 				96A93DF4249A783300E9B7C8 /* AppDelegate.swift */,
 				96A93DF6249A783300E9B7C8 /* SceneDelegate.swift */,
+				96A93DF8249A783300E9B7C8 /* ContentView.swift */,
 			);
 			path = CommonFiles;
 			sourceTree = "<group>";

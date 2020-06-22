@@ -3,7 +3,6 @@
 //  SwiftUILearning
 //
 //  Created by Nitesh Kumar Pal on 17/06/20.
-//  Copyright © 2020 Initiator. All rights reserved.
 //
 
 import Foundation
@@ -14,12 +13,15 @@ struct SocietyServicesNavigationDemo: View {
     
     let services = SocietyService.allServices
     
-//    // Navigation setup
-//    var body: some View {
-//        getSocietyServicesWithNav(services: services)
-//    }
-    
     var body: some View {
+        //Try follwoing code
+        //Trial1
+        //getSocietyServicesWithNav(services: services)
+        //Trial2
+        //NavigationView {
+        //   getSocietyServices(services: services)
+        //       .navigationBarTitle("Services")
+        //}
         NavigationView {
             getSocietyServicesWithDetails(services: services)
                 .navigationBarTitle("Services")
@@ -29,6 +31,7 @@ struct SocietyServicesNavigationDemo: View {
 }
     
 //1st Trial
+//All the Navigation setup added in the method
 func getSocietyServicesWithNav(services: [SocietyService]) -> some View {
     return
         NavigationView {
@@ -42,6 +45,7 @@ func getSocietyServicesWithNav(services: [SocietyService]) -> some View {
 }
 
 //2nd Trial
+//in this method there is only List with NavigationLink attached destination passing dynamic data
 func getSocietyServices(services: [SocietyService]) -> some View {
     return
         
@@ -54,6 +58,7 @@ func getSocietyServices(services: [SocietyService]) -> some View {
 }
 
 //3rd Trial
+//this method is like 2nd Trial only diffrence is it has more sophisticated version detail screen with dynamic data passing.
 func getSocietyServicesWithDetails(services: [SocietyService]) -> some View {
     return
         

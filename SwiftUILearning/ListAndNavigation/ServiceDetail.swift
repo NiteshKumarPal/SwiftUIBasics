@@ -3,7 +3,6 @@
 //  SwiftUILearning
 //
 //  Created by Nitesh Kumar Pal on 17/06/20.
-//  Copyright © 2020 Initiator. All rights reserved.
 //
 
 import SwiftUI
@@ -15,7 +14,7 @@ struct ServiceDetail: View {
     
     var body: some View {
        detailWithZoomAnimation()
-        .navigationBarTitle(Text(service.serviceName), displayMode: .inline)
+        .navigationBarTitle(Text(service.serviceName), displayMode: .inline) //check the differences for .inline, .automatic and .large
     }
     
     // 1st trial

@@ -3,7 +3,6 @@
 //  SwiftUILearning
 //
 //  Created by Nitesh Kumar Pal on 17/06/20.
-//  Copyright © 2020 Initiator. All rights reserved.
 //
 
 import UIKit
@@ -20,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = GridViewWithState()
+        let contentView = ContentView()
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {

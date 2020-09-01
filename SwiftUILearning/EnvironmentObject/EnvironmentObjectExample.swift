@@ -20,7 +20,7 @@ struct RootConentOfApp: View {
         // let profileSetting = ProfileSetting()
         
         // EnvironmentObject can be shared with any descedent child of the parent view which has main origin instance of the app
-        // It can only be initialised with the help of environmentObject() method.
+        // It can only be initialised with the help of @EnvironmentObject keyword.
         // EnvironmentObjectExample is root view, It can be root view of app. you can define it in SceneDelegate class
         // profileSetting is the EnvironmentObject here
         // It can be access from RootConentOfApp, EnvironmentObjectExample and its child EnvironmentObjectExampleChild
@@ -68,6 +68,7 @@ struct EnvironmentObjectExampleChild: View {
 
 struct EnvironmentObjectExample_Previews: PreviewProvider {
     static var previews: some View {
+        //Here is the convention for initialising the environment object at the time of initialising root View. 
         RootConentOfApp().environmentObject(ProfileSetting())
     }
 }

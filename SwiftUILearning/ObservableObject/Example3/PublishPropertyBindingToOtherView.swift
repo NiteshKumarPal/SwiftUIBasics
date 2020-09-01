@@ -12,7 +12,7 @@ struct PublishPropertyBindingToOtherView: View {
     
     var body: some View {
         VStack {
-            //👇 for just accessing its as read only dont use it with $ prefix
+            //👇 for binding this property with ShowFeedback use $ prefix
             ShowFeedback(feedbackMessage: $feedback.feedbackMessage)
             
             //👇 use $ prefix for binding it with text parameter that is actually Binding<String> type, so now any changes of feedbackMessage would reflect in text value of TextField and vice versa.

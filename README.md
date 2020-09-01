@@ -12,19 +12,19 @@
 ## Demo:
 
 <table>
-<tr> Sample for Navigation and State binding:</tr>
-  <tr>
+<tr> <td> Sample for Navigation and State binding: <td> </tr>
+<tr>
     <td> ![](Demo/NavigationDemo.gif)</td>
     <td> ![](Demo/StateBinding.gif)</td>
-   </tr> 
-   <tr> Sample for Observable Object and it's binding:</tr>
-   <tr>
+</tr> 
+<tr><td> Sample for Observable Object and it's binding:</td></tr>
+<tr>
       <td> ![](Demo/ObservedObjectDemo.gif)</td>
       <td> ![](Demo/ObserveObjectDemo.gif)</td>
-     </tr> 
-     <tr> Sample for creating custom CollectionView and Environment Object:</tr>
-     <tr>
+</tr> 
+<tr><td> Sample for creating custom CollectionView and Environment Object:</td></tr>
+<tr>
       <td> ![](Demo/GridViewDemo.gif)</td>
       <td> ![](Demo/EnvironmentObjectDemo.gif)</td>
-     </tr> 
+</tr> 
 </table>
